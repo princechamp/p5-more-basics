@@ -1,7 +1,7 @@
 var  a = 50;
 var b = 50;
-var newHeight = 50;
-var newWidth = 50;
+var newHeight = 75;
+var newWidth = 40;
 
 function setup(){
     createCanvas(600,400);
@@ -14,8 +14,8 @@ function draw(){
     // background(50);
     if (mouseIsPressed) { 
         noStroke();
-        fill(150,0,255,50)
-        ellipse(mouseX,mouseY,newWidth,newHeight);
+        fill(150,0,25,150)
+        rect(mouseX,mouseY,newWidth,newHeight);
         
     }
   
